@@ -4,7 +4,7 @@
 
 <p align="center">  
   
-  <a href="">
+  <a href="https://github.com/sakshiv3107/FinanceFlow/releases/download/v1.0.0/FinanceFlow.apk">
     <img src="https://img.shields.io/badge/⬇ Download APK-2ea44f?style=for-the-badge" />
   </a>
   <img src="https://img.shields.io/badge/Version-1.0.1-blue?style=for-the-badge" />
