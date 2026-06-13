@@ -2,11 +2,15 @@
 
 > A beautifully designed, fully offline Flutter expense tracker — built for people who want clarity over their money without the cloud.
 
-![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?logo=dart&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey)
+<p align="center">  
+  
+  <a href="">
+    <img src="https://img.shields.io/badge/⬇ Download APK-2ea44f?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/Version-1.0.1-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Android-3ddc84?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Built%20With-Flutter-02569B?style=for-the-badge" />
+</p>
 
 ---
 
