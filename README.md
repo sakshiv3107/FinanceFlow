@@ -36,9 +36,8 @@ FinanceFlow is a local-first personal finance app that helps you track daily exp
 
 | Add Expense | Analytics | History |
 |---|---|---|
-| ![Add](assets/screenshots/add_expense.png) | ![Analytics](assets/screenshots/analytics.png) | ![History](assets/screenshots/history.png) |
+| ![Add](screenshots/add_expense_screen.png) | ![Analytics](screenshots/analytics_screen.png) | ![History](screenshots/history_screen.png) | ![Dashboard](screenshots/dashboard_screen.png) | ![Goals](screenshots/goals_screen.png)
 
-> _Replace placeholders with actual screenshots once the app is built_
 
 ---
 
