@@ -34,9 +34,9 @@ FinanceFlow is a local-first personal finance app that helps you track daily exp
 
 ## 📸 Screenshots
 
-| Add Expense | Analytics | History |
-|---|---|---|
-| ![Add](screenshots/add_expense_screen.png) | ![Analytics](screenshots/analytics_screen.png) | ![History](screenshots/history_screen.png) | ![Dashboard](screenshots/dashboard_screen.png) | ![Goals](screenshots/goals_screen.png)
+|Dashboard| Add Expense | Analytics | History |  Goals
+|---|---|---|--|---|
+| ![Dashboard](screenshots/dashboard_screen.png) |  ![Add](screenshots/add_expense_screen.png) | ![Analytics](screenshots/analytics_screen.png) | ![History](screenshots/history_screen.png) | ![Goals](screenshots/goals_screen.png)
 
 
 ---
@@ -52,10 +52,10 @@ lib/
 ├── data/
 │   ├── models/
 │   │   ├── expense.dart        # freezed model + Hive adapter (typeId: 0)
-│   │   └── budget.dart         # freezed model + Hive adapter (typeId: 1)
+│   │   └── goals.dart         # freezed model + Hive adapter (typeId: 1)
 │   └── repositories/
 │       ├── expense_repo.dart   # CRUD via Hive box 'expenses'
-│       └── budget_repo.dart    # CRUD via Hive box 'budgets'
+│       └── goals_repo.dart    # CRUD via Hive box 'budgets'
 ├── presentation/
 │   ├── dashboard/
 │   │   ├── dashboard_screen.dart
@@ -68,8 +68,8 @@ lib/
 │   ├── history/
 │   │   └── history_screen.dart
 │   ├── budget/
-│   │   ├── budget_screen.dart
-│   │   └── budget_provider.dart      # budgetListProvider, budgetProgressProvider, etc.
+│   │   ├── goals_screen.dart
+│   │   └── goals_provider.dart      # budgetListProvider, budgetProgressProvider, etc.
 │   ├── settings/
 │   │   └── settings_screen.dart      # theme toggle, CSV export, clear data
 │   └── widgets/
