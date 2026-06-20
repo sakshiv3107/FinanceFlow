@@ -2,11 +2,15 @@
 
 > A beautifully designed, fully offline Flutter expense tracker — built for people who want clarity over their money without the cloud.
 
-![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?logo=dart&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey)
+<p align="center">  
+  
+  <a href="https://github.com/sakshiv3107/FinanceFlow/releases/download/v1.0.0/FinanceFlow.apk">
+    <img src="https://img.shields.io/badge/⬇ Download APK-2ea44f?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/Version-1.0.1-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Android-3ddc84?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Built%20With-Flutter-02569B?style=for-the-badge" />
+</p>
 
 ---
 
@@ -34,9 +38,9 @@ FinanceFlow is a local-first personal finance app that helps you track daily exp
 
 ## 📸 Screenshots
 
-| Add Expense | Analytics | History |
-|---|---|---|
-| ![Add](screenshots/add_expense_screen.png) | ![Analytics](screenshots/analytics_screen.png) | ![History](screenshots/history_screen.png) | ![Dashboard](screenshots/dashboard_screen.png) | ![Goals](screenshots/goals_screen.png)
+|Dashboard| Add Expense | Analytics | History |  Goals
+|---|---|---|--|---|
+| ![Dashboard](screenshots/dashboard_screen.png) |  ![Add](screenshots/add_expense_screen.png) | ![Analytics](screenshots/analytics_screen.png) | ![History](screenshots/history_screen.png) | ![Goals](screenshots/goals_screen.png)
 
 
 ---
@@ -52,10 +56,10 @@ lib/
 ├── data/
 │   ├── models/
 │   │   ├── expense.dart        # freezed model + Hive adapter (typeId: 0)
-│   │   └── budget.dart         # freezed model + Hive adapter (typeId: 1)
+│   │   └── goals.dart         # freezed model + Hive adapter (typeId: 1)
 │   └── repositories/
 │       ├── expense_repo.dart   # CRUD via Hive box 'expenses'
-│       └── budget_repo.dart    # CRUD via Hive box 'budgets'
+│       └── goals_repo.dart    # CRUD via Hive box 'budgets'
 ├── presentation/
 │   ├── dashboard/
 │   │   ├── dashboard_screen.dart
@@ -68,8 +72,8 @@ lib/
 │   ├── history/
 │   │   └── history_screen.dart
 │   ├── budget/
-│   │   ├── budget_screen.dart
-│   │   └── budget_provider.dart      # budgetListProvider, budgetProgressProvider, etc.
+│   │   ├── goals_screen.dart
+│   │   └── goals_provider.dart      # budgetListProvider, budgetProgressProvider, etc.
 │   ├── settings/
 │   │   └── settings_screen.dart      # theme toggle, CSV export, clear data
 │   └── widgets/
